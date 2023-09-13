@@ -13,6 +13,11 @@ public class MyController {
 	public String showHi() {
 		return "Hi";
 	}
+	@GetMapping("/Bye")
+	public String showBye() {
+		return "Bye Bye";
+	}
 	
+
 
 }
